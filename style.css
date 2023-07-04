@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.779),
+      rgba(0, 0, 0, 0.467)
+    ),
+    url('img/background.jpg') transparent no-repeat bottom / cover;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+.container {
+  height: 18em;
+  width: 18rem;
+  background-color: #c8614a;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 16px;
+  border: 2px solid rgb(14, 43, 1);
+}
+
+.temp,
+.summary,
+.location,
+.wind {
+  margin-top: 1rem;
+}
+
+.wind_container {
+  margin-top: 1rem;
+}
+
+.wind_icon {
+  display: inline;
+  height: 2rem;
+}
+.wind {
+  display: inline;
+}
